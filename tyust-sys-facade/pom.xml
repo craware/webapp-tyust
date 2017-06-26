@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>tyust-parent</artifactId>
+        <groupId>tyust</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>tyust</groupId>
+    <!-- dubbo 调服务的一层,其实就是service层跟web层的桥梁 -->
+    <artifactId>tyust-sys-facade</artifactId>
+    <packaging>jar</packaging>
+
+    <!-- 最终打压成jar时候的名字 -->
+    <build>
+        <finalName>tyust-sys-facade</finalName>
+    </build>
+
+    <name>tyust-sys-facade</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+</project>

@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <!-- 继承父类 -->
+  <parent>
+  	<groupId>tyust</groupId>
+  	<artifactId>tyust-parent</artifactId>
+	<version>1.0-SNAPSHOT</version>
+  </parent>
+  <artifactId>tyust-mst</artifactId>
+  <packaging>war</packaging>
+  <dependencies>
+  	<dependency>
+  		<groupId>tyust</groupId>
+  		<artifactId>tyust-com</artifactId>
+  		<version>1.0-SNAPSHOT</version>
+  	</dependency>  
+  	<dependency>
+  		<groupId>tyust</groupId>
+  		<artifactId>tyust-mst-facade</artifactId>
+  		<version>1.0-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
+  <build>
+    <finalName>tyust-mst</finalName>
+  </build>
+</project>

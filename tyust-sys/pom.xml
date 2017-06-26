@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <artifactId>tyust-parent</artifactId>
+        <groupId>tyust</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>tyust-sys</artifactId>
+    <packaging>war</packaging>
+    <name>tyust-sys Maven Webapp</name>
+    <url>http://maven.apache.org</url>
+    <dependencies>
+        <!--引入tyust-com的依赖-->
+        <dependency>
+            <groupId>tyust</groupId>
+            <artifactId>tyust-com</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!-- 要调用tyust-sys-facade层的服务,需引入tyust-sys-facade -->
+        <dependency>
+            <groupId>tyust</groupId>
+            <artifactId>tyust-sys-facade</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+    <!-- 定义最终打成war包的名字 -->
+    <build>
+        <finalName>tyust-sys</finalName>
+    </build>
+</project>
