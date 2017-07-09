@@ -8,7 +8,6 @@ import java.util.Date;
  * <B>系统名称：</B>治超信息系统<BR>
  * <B>模块名称：</B>数据实体<BR>
  * <B>中文类名：</B>系统文件<BR>
- * <B>概要说明：</B><BR>
  */
 public class SysFile implements java.io.Serializable {
 

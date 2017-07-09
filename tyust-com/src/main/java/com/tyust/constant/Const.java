@@ -1,5 +1,8 @@
 package com.tyust.constant;
 
+/**
+ * 常亮池
+ */
 public final class Const {
 
     /**
