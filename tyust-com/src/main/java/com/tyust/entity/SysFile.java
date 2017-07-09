@@ -9,9 +9,6 @@ import java.util.Date;
  * <B>模块名称：</B>数据实体<BR>
  * <B>中文类名：</B>系统文件<BR>
  * <B>概要说明：</B><BR>
- * 
- * @author 交通运输部规划研究院（邵彧）
- * @since 2013-12-06
  */
 public class SysFile implements java.io.Serializable {
 

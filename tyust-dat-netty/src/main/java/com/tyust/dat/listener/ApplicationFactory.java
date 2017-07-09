@@ -8,12 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 /**
  * 
  * <br>类 名: ApplicationFactory 
- * <br>描 述: 描述类完成的主要功能 
- * <br>作 者: bhz
- * <br>创 建： 2013年5月5日 
- * <br>版 本：v1.0.0 
- * <br>
- * <br>历 史: (版本) 作者 时间 注释
+ * <br>描 述: 描述类完成的主要功能
  */
 public class ApplicationFactory implements ApplicationContextAware {
 	private static ApplicationContext ctx = null;

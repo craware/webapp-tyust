@@ -6,7 +6,7 @@ export JRE_HOME=$JAVA_HOME/jre
 ## exec shell name
 EXEC_SHELL_NAME=sys-service\.sh
 ## service name
-SERVICE_NAME=bhz-sys-service
+SERVICE_NAME=tyust-sys-service
 SERVICE_DIR=/usr/local/workspace/sys-service
 JAR_NAME=$SERVICE_NAME\.jar
 PID=$SERVICE_NAME\.pid

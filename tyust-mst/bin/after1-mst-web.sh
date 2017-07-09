@@ -7,5 +7,5 @@ export JRE_HOME=$JAVA_HOME/jre
 ## restart tomcat
 /usr/local/apache-tomcat-7.0.29/bin/shutdown.sh
 sleep 5
-rm -rf /usr/local/apache-tomcat-7.0.29/webapps/bhz-mst
+rm -rf /usr/local/apache-tomcat-7.0.29/webapps/tyust-mst
 /usr/local/apache-tomcat-7.0.29/bin/startup.sh

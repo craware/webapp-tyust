@@ -4,7 +4,7 @@
 
     <context-param>
         <param-name>webAppRootKey</param-name>
-        <param-value>bhz-sys-service.root</param-value>
+        <param-value>tyust-sys-service.root</param-value>
     </context-param>
     <context-param>
         <param-name>log4jConfigLocation</param-name>
@@ -37,7 +37,7 @@
     <!-- 访问时需要加前缀/bhz-sys-service/ -->
     <servlet-mapping>
         <servlet-name>dubboxDispatcher</servlet-name>
-        <url-pattern>/bhz-sys-service/*</url-pattern>
+        <url-pattern>/tyust-sys-service/*</url-pattern>
     </servlet-mapping>
 
 </web-app>

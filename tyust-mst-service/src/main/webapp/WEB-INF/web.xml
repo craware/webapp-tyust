@@ -4,7 +4,7 @@
 
   <context-param>
     <param-name>webAppRootKey</param-name>
-    <param-value>bhz-mst-service.root</param-value>
+    <param-value>tyust-mst-service.root</param-value>
   </context-param>
   <context-param>
     <param-name>log4jConfigLocation</param-name>
@@ -35,7 +35,7 @@
 	</servlet>
   <servlet-mapping>
   	<servlet-name>dubboxDispatcher</servlet-name>
-  	<url-pattern>/bhz-mst-service/*</url-pattern>
+  	<url-pattern>/tyust-mst-service/*</url-pattern>
   </servlet-mapping>
   
 </web-app>

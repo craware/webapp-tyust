@@ -2,13 +2,13 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
          id="WebApp_ID" version="3.0">
-  <display-name>bhz-sys</display-name>
+  <display-name>tyust-sys</display-name>
   <welcome-file-list>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   <context-param>
     <param-name>webAppRootKey</param-name>
-    <param-value>bhz-sys.root</param-value>
+    <param-value>tyust-sys.root</param-value>
   </context-param>
   <context-param>
     <param-name>log4jConfigLocation</param-name>
@@ -26,7 +26,7 @@
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>
   <servlet>
-    <servlet-name>bhz-sys</servlet-name>
+    <servlet-name>tyust-sys</servlet-name>
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
     <init-param>
       <param-name>contextConfigLocation</param-name>
@@ -35,11 +35,11 @@
     <load-on-startup>1</load-on-startup>
   </servlet>
   <servlet-mapping>
-    <servlet-name>bhz-sys</servlet-name>
+    <servlet-name>tyust-sys</servlet-name>
     <url-pattern>*.html</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
-    <servlet-name>bhz-sys</servlet-name>
+    <servlet-name>tyust-sys</servlet-name>
     <url-pattern>*.json</url-pattern>
   </servlet-mapping>
 
@@ -71,6 +71,6 @@
   </filter>
   <filter-mapping>
     <filter-name>authValidateFilter</filter-name>
-    <servlet-name>bhz-sys</servlet-name>
+    <servlet-name>tyust-sys</servlet-name>
   </filter-mapping>
 </web-app>

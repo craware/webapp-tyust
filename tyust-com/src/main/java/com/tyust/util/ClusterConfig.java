@@ -26,7 +26,6 @@ public class ClusterConfig {
 	@Bean
 	public JedisCluster getRedisCluster(){
 	    Set<HostAndPort> jedisClusterNode = new HashSet<HostAndPort>();
-	    
 	    jedisClusterNode.add(new HostAndPort(environment.getProperty("redis.cluster.nodes1"), Integer.parseInt(environment.getProperty("redis.cluster.port1"))));
 	    jedisClusterNode.add(new HostAndPort(environment.getProperty("redis.cluster.nodes2"), Integer.parseInt(environment.getProperty("redis.cluster.port2"))));
 	    jedisClusterNode.add(new HostAndPort(environment.getProperty("redis.cluster.nodes3"), Integer.parseInt(environment.getProperty("redis.cluster.port3"))));

@@ -6,7 +6,7 @@
   </welcome-file-list>
   <context-param>
     <param-name>webAppRootKey</param-name>
-    <param-value>bhz-mst.root</param-value>
+    <param-value>tyust-mst.root</param-value>
   </context-param>
   <context-param>
     <param-name>log4jConfigLocation</param-name>
@@ -24,7 +24,7 @@
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>
   <servlet>
-    <servlet-name>bhz-mst</servlet-name>
+    <servlet-name>tyust-mst</servlet-name>
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
     <init-param>
      	<param-name>contextConfigLocation</param-name>
@@ -33,11 +33,11 @@
     <load-on-startup>1</load-on-startup>
   </servlet>
   <servlet-mapping>
-      <servlet-name>bhz-mst</servlet-name>
+      <servlet-name>tyust-mst</servlet-name>
       <url-pattern>*.html</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
-      <servlet-name>bhz-mst</servlet-name>
+      <servlet-name>tyust-mst</servlet-name>
       <url-pattern>*.json</url-pattern>
   </servlet-mapping> 
  

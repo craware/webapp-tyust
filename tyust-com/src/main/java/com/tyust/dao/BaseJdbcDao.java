@@ -26,8 +26,6 @@ import com.alibaba.fastjson.JSONObject;
 
 /**
  * 继承SpringJDBCTemplate
- * @author
- * @since 2013-10-28
  */
 
 public class BaseJdbcDao {

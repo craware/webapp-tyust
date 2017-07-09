@@ -3,7 +3,7 @@
 ## exec shell name
 EXEC_SHELL_NAME=dat-netty\.sh
 ## service name
-SERVICE_NAME=bhz-dat-netty
+SERVICE_NAME=tyust-dat-netty
 ## service dir 
 SERVICE_DIR=/usr/local/workspace/dat-netty
 

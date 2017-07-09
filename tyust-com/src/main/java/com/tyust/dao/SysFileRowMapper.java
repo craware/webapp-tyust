@@ -14,8 +14,6 @@ import org.springframework.jdbc.core.RowMapper;
  * <B>模块名称：</B>数据访问通用功能<BR>
  * <B>中文类名：</B>系统文件行映射器<BR>
  * <B>概要说明：</B><BR>
- * @author bhz（Alienware）
- * @since 2016年5月23日
  */
 public class SysFileRowMapper implements RowMapper<SysFile> {
 
